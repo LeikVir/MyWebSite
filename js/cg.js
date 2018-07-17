@@ -8,15 +8,15 @@ contacto.addEventListener("click", Contacto);
 
 function Inicio()
 {
-    alert("Redirigiendo a la Pagina de Inicio...");
+    document.getElementById("lblMessageIndex").innerHTML = "<strong>Inicio</strong>";
 }
 
 function Nosotros()
 {
-    alert("Redirigiendo a la Pagina Acerca de Nosotros...");
+    document.getElementById("lblMessageNosotros").innerHTML = "<strong>Nosotros</strong>";
 }
 
 function Contacto()
 {
-    alert("Redirigiendo a la Pagina de Contactos...");
+    document.getElementById("lblMessageContacto").innerHTML = "<strong>Contacto</strong>";
 }
